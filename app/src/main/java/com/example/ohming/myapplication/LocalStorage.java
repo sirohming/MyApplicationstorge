@@ -41,7 +41,8 @@ public class LocalStorage extends Activity {
         try {
             URL url = new URL(api_call);
             Log.i("test","3");
-            Scanner scan = new Scan ner(url.openStream());
+            Scanner scan = new Scanner(url.openStream());
+            //jyfguilllkytd
             Log.i("test","4");
             StringBuffer buf = new StringBuffer();
             Log.i("test","5");
